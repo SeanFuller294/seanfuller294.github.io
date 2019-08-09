@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>SeanFuller</title>
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -14,22 +16,48 @@
 <body>
   <div class="container-fluid">
     <div id="my-intro-row" class="row intro-row">
-      <div class="col">
-        <nav class="navbar navbar-dark bg-dark justify-space-around">
+      <div class="col justify-content-center d-flex">
+        <nav class="navbar navbar-dark bg-dark justify-space-around sticky">
           <a class="navbar-brand" href="#my-intro-row">Sean Fuller</a>
           <a class="navbar-brand" href="#my-about-row">About</a>
-          <a class="navbar-brand" href="#my-intro-row">Skills</a>
-          <a class="navbar-brand" href="#my-intro-row">Projects</a>
-          <a class="navbar-brand" href="#my-intro-row">Contact</a>
+          <a class="navbar-brand" href="#my-skills-row">Skills</a>
+          <a class="navbar-brand" href="#my-project-row">Projects</a>
+          <a class="navbar-brand" href="#my-contact-row">Contact</a>
+          <a class="navbar-brand" href="https://github.com/SeanFuller294" target="_blank"><i
+              class="devicon-github-plain-wordmark med-text"></i></a>
+      </div>
+      <div class="col-12 bold-white d-flex justify-content-center align-items-center">
+        <h1 class="large-text">Sean Fuller</h1>
+      </div>
+      <div class="col-12 d-flex justify-content-center align-items-center">
+        <a href="#my-about-row" class="btn btn-colored" role="button" aria-pressed="true">ABOUT ME</a>
+      </div>
+      <div class="col-12 bold-white d-flex justify-content-center align-items-center">
+        <h1 class="large-text">Developer</h1>
       </div>
     </div>
-    <div id="my-about-row" class="row about-row">
-      <div class="col">
-        <h1>This will be some stuff about me Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint inventore
-          voluptate vel odio, placeat quia. Officia possimus, veniam rem porro quos laboriosam autem qui, nobis aliquid,
-          pariatur dignissimos sed obcaecati?</h1>
+    <div id="my-about-row" class="row about-row bold-white d-flex justify-content-center align-items-center">
+      <h1 class="mt-5">About Me</h1>
+      <h1 class="mb-5">This will be some stuff about me Lorem ipsum dolor sit amet consectetur adipisicing
+        elit.
+        Sint inventore
+        voluptate vel odio, placeat quia. Officia possimus, veniam rem porro quos laboriosam autem qui, nobis
+        aliquid,
+        pariatur dignissimos sed obcaecati?</h1>
+    </div>
+    <div id="my-skills-row" class="row skills-row">
+      <div class="col-1">
+        <i class="devicon-html5-plain"></i>
+        <i class="devicon-css3-plain"></i>
+        <i class="devicon-javascript-plain"></i>
+        <i class="devicon-bootstrap-plain"></i>
+        <i class="devicon-java-plain"></i>
       </div>
     </div>
+    <div id="my-project-row" class="row project-row"></div>
+    <nav id="my-contact-row" class="navbar navbar-dark bg-dark justify-space-around">
+      <a class="navbar-brand" href="#my-intro-row">Sean Fuller</a>
+  </div>
 </body>
 
 </html>

@@ -2,6 +2,21 @@
   background-image: url("https://www.thoughtco.com/thmb/DF3Q0T5_0O5CmGBTCWCBTcyGgmw=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/JavaScript-58acbb8a3df78c345bad32c2.jpg");
   background-size: cover;
   height: 100vh;
+  font-size: 5rem;
+}
+.about-row{
+  background-color: rgb(182, 141, 107);
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+}
+.skills-row{
+  height:40vh;
+  text-align: center;
+}
+.project-row{
+  height:80vh;
+  text-align: center;
 }
 .btn-colored{
   color:rgb(16, 6, 58);
@@ -10,4 +25,17 @@
 .bold-white{
   font-weight: bold;
   color: white;
+}
+.large-text{
+  font-size: 5rem;
+}
+.med-text{
+  font-size: 3rem;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 1000;
 }
