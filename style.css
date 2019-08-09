@@ -24,7 +24,10 @@
 }
 .project-row{
   height:80vh;
+  background-image: url("http://alana.io/wp-content/uploads/2015/08/dark-dusk-sunset6769-1560x1040.jpg");
+  background-size: cover;
   text-align: center;
+  color: white;
 }
 .btn-colored{
   color:rgb(16, 6, 58);
@@ -46,4 +49,11 @@
   width: 100%;
   text-align: center;
   z-index: 1000;
+}
+.construction-bg{
+  background-image: url("http://www.seventhwave.org/sites/default/files/under_construction1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 15%;
 }
