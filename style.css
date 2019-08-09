@@ -1,0 +1,13 @@
+.intro-row{
+  background-image: url("https://www.thoughtco.com/thmb/DF3Q0T5_0O5CmGBTCWCBTcyGgmw=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/JavaScript-58acbb8a3df78c345bad32c2.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.btn-colored{
+  color:rgb(16, 6, 58);
+  background-color: #ffc107;
+}
+.bold-white{
+  font-weight: bold;
+  color: white;
+}
