@@ -17,12 +17,22 @@
   <div class="container-fluid">
     <div id="my-intro-row" class="row intro-row">
       <div class="col justify-content-center d-flex">
-        <nav class="navbar navbar-dark bg-dark justify-space-around sticky">
-          <a class="navbar-brand" href="#my-intro-row">Sean Fuller</a>
-          <a class="navbar-brand" href="#my-about-row">About</a>
-          <a class="navbar-brand" href="#my-skills-row">Skills</a>
-          <a class="navbar-brand" href="#my-project-row">Projects</a>
-          <a class="navbar-brand" href="#my-contact-row">Contact</a>
+        <nav class="navbar navbar-dark bg-dark justify-space-around sticky transparent-bg">
+          <a class="navbar-brand">
+            <button class="btn text-white" onclick="scrollToIntro()">Sean Fuller</button>
+          </a>
+          <a class="navbar-brand">
+            <button class="btn text-white" onclick="scrollToAbout()">About</button>
+          </a>
+          <a class="navbar-brand">
+            <button class="btn text-white" onclick="scrollToSkills()">Skills</button>
+          </a>
+          <a class="navbar-brand">
+            <button class="btn text-white" onclick="scrollToProjects()">Projects</button>
+          </a>
+          <a class="navbar-brand">
+            <button class="btn text-white" onclick="scrollToContact()">Contact</button>
+          </a>
           <a class="navbar-brand" href="https://github.com/SeanFuller294" target="_blank"><i
               class="devicon-github-plain-wordmark med-text"></i></a>
       </div>
@@ -32,7 +42,7 @@
       <div class="col-12 d-flex justify-content-center"><img src="/20190709_172928.jpg" alt="ME" class="my-picture">
       </div>
       <div class="col-12 d-flex justify-content-center align-items-center">
-        <a href="#my-about-row" class="btn btn-colored" role="button" aria-pressed="true">ABOUT ME</a>
+        <button class="btn btn-colored" onclick="scrollToAbout()">About Me</button>
       </div>
       <div class="col-12 bold-white d-flex justify-content-center align-items-center">
         <h1 class="large-text">Developer</h1>
@@ -49,17 +59,21 @@
     </div>
     <div id="my-skills-row" class="row skills-row">
       <div class="col med-text">
-        <h1 class="text-center">My Skills</h1>
-        <i class="devicon-html5-plain"></i>
-        <i class="devicon-css3-plain"></i>
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-bootstrap-plain"></i>
-        <i class="devicon-java-plain"></i>
+        <h1 class="text-center mt-navbar">My Skills</h1>
+        <a class="devicon-html5-plain text-dark" href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+          target="_blank"></a>
+        <a class="devicon-css3-plain text-dark" href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+          target="_blank"></a>
+        <a class="devicon-javascript-plain text-dark" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          target="_blank"></a>
+        <a class="devicon-bootstrap-plain text-dark" href="https://getbootstrap.com/" target="_blank"></a>
+        <a class="devicon-java-plain text-dark" href="https://developer.mozilla.org/en-US/docs/Glossary/Java"
+          target="_blank"></a>
         <h1>Many more to come!</h1>
       </div>
     </div>
     <div id="my-project-row" class="row project-row">
-      <h1 class="col-12">My Projects</h1>
+      <h1 class="col-12 mt-navbar">My Projects</h1>
       <div class="col-3 construction-bg"></div>
       <div class="col-3 construction-bg"></div>
       <div class="col-3 construction-bg"></div>
@@ -70,11 +84,14 @@
       <div class="col-3 construction-bg"></div>
     </div>
     <nav id="my-contact-row" class="navbar navbar-dark bg-dark justify-space-around">
-      <a class="navbar-brand" href="#my-intro-row">Sean Fuller</a>
+      <a class="navbar-brand tex-white">
+        <button class="btn text-white" onclick="scrollToIntro()">Sean Fuller</button>
+      </a>
       <a class="navbar-brand text-white">S.fuller294@gmail.com</a>
       <a class="navbar-brand text-white">208.360.1498</a>
       <a class="navbar-brand" href="resume.html" target="_blank">Resume</a>
   </div>
+  <script src="app.js"></script>
 </body>
 
 </html>
